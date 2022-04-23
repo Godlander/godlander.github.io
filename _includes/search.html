@@ -6,7 +6,7 @@ var data = [
 {%- for b in site.blog -%}
 {
     "title": {{ b.title | jsonify }},
-    "url": "{{ b.url }}",
+    "url": "{{ b.url | relative_url }}",
     "tags": "{{ b.tags | join:" " }}",
     "content": {{ b.content | jsonify }}
 }
