@@ -20,7 +20,7 @@
 
 title: hihixd
 
-markdown: GFM
+markdown: kramdown
 
 # Build settings
 theme: minima
