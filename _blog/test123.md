@@ -14,3 +14,12 @@ summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1}}
 ```
 
 i guess mcfunction doesnt work
+
+```hs
+execute if score @s blah == @p test run say hi
+scoreboard players operation @s blah *= 5 const
+setblock ~ ~ ~ minecraft:dirt
+summon item ~ ~ ~ {Item:{id:"minecraft:stick",Count:1}}
+```
+
+hs does tho
